@@ -29,8 +29,11 @@ h1,
 }
 
 body {
-    overflow-x: hidden;
-    background-color: var(--Dark-cyan);
+    background: url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat;
+    background-color: var(--Dark-cyan,darkcyan);
 }
 
 main {
@@ -38,32 +41,6 @@ main {
     display: grid;
     place-items: center;
     height: 100vh;
-}
-
-body::after {
-    content: "";
-    position: fixed;
-    top: -35%;
-    left: -35%;
-    z-index: 20;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/bg-pattern-top.svg);
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    bottom: -60%;
-    right: -60%;
-    z-index: 20;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/bg-pattern-bottom.svg);
 }
 
 main section {
