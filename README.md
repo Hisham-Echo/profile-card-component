@@ -90,4 +90,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub
 
 **Live-Preview:**
-https://hisham3243.github.io/profile-card-component/
+https://hisham-echo.github.io/profile-card-component/
